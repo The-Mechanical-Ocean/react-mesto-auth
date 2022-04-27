@@ -1,0 +1,7 @@
+.popup__card {
+  margin: auto;
+  position: relative;
+  max-width: 75vw;
+  max-height: 75vh;
+  width: auto;
+}

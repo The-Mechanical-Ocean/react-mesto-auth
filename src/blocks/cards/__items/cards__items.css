@@ -1,0 +1,27 @@
+.cards__items {
+  display: grid;
+  grid: repeat(2, 1fr) / repeat(3, 1fr);
+  gap: 20px 17px;
+  margin: 51px auto 0;
+  padding: 0;
+  max-width: 880px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 900px) {
+  .cards__items {
+    max-width: 560px;
+    margin-top: 36px;
+    gap: 15px 12px;
+    grid: repeat(3, 1fr) / repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 620px) {
+  .cards__items {
+    grid: repeat(6, 1fr) / 1fr;
+    max-width: 282px;
+    row-gap: 20px;
+  }
+}
+
