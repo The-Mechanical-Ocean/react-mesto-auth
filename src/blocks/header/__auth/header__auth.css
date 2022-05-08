@@ -1,5 +1,10 @@
 .header__auth {
   display: flex;
   flex-direction: row;
-  outline: 1px solid red;
+  justify-content: space-between;
+}
+@media screen and (max-width: 620px) {
+  .header__auth {
+    flex-direction: column;
+  }
 }

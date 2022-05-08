@@ -7,7 +7,7 @@ function EntryForm({name, title, children, onSubmit}) {
             <h2 className={`popup__name-form popup__name-form_for_entry popup__title_for${name}`}>{title}</h2>
             <form className={`popup__form popup__form_for_${name}`} name={name} 
                   onSubmit={onSubmit}>
-                {children}  
+              {children}  
             </form>
         </div>   
       </div>  

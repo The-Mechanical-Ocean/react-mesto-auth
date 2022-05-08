@@ -1,11 +1,13 @@
 import React from 'react';
 import Card from '../components/Card'
+import Footer from '../components/Footer';
 import {CurrentUserContext} from '../contexts/CurrentUserContext';
 
 function Main (props) {
   const currentUser = React.useContext(CurrentUserContext);
   
   return (
+    <>
     <main className="content">
       <section className="profile">
         <button onClick={props.onEditAvatar} className="profile__button-avatar" aria-label="редактировать аватар" type="button">
@@ -31,6 +33,8 @@ function Main (props) {
         </ul>
       </section>
     </main>
+    <Footer />
+    </>
   )    
 }
 

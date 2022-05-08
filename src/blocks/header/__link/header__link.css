@@ -1,0 +1,11 @@
+.header__link {
+  color: #fff;
+  text-decoration: none;
+  margin-top: 3px;
+  z-index: 1;
+  height: fit-content;
+}
+
+.header__link:hover {
+  opacity: 0.6;
+}

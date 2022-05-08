@@ -3,10 +3,10 @@ import PopupWithForm from './PopupWithForm';
 
 function DeleteConfirmPopup(props) {
 
-    function handleSubmit(e) {
-      e.preventDefault();
-      props.onDeleteCard(props.card);
-    }
+  function handleSubmit(e) {
+    e.preventDefault();
+    props.onDeleteCard(props.card);
+  }
 
   return (
     <PopupWithForm title='Вы уверены?' name='form-delete-confirm' buttonText='Да'

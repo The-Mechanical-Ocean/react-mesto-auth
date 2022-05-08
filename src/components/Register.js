@@ -19,7 +19,7 @@ function Register(props) {
     props.onRegister(
       password,
       email
-  )
+    )
   }
 
   return (
