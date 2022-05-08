@@ -2,13 +2,16 @@ import React from 'react';
 import App from './components/App';
 import reportWebVitals from './reportWebVitals';
 import {createRoot} from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom'; 
 
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
 
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>,
   
 );
